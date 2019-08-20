@@ -1,0 +1,106 @@
+<!-- html 的编写思路适用于小程序 -->
+
+<!-- 1.先编写页面的结构（html） -->
+
+<!-- 2.再编写页面的样式（css） -->
+
+<!-- 3.再编写业务逻辑（JavaScript） -->
+<!-- <button>按钮</button> -->
+<!-- 小程序有其自己独立的标签并不和网页完全一样 -->
+<!-- 例如img 网页中，小程序image -->
+<swiper indicator-dots indicator-color="rgba(255,255,255,.6)" indicator-active-color="#fff" autoplay interval="2000" circular>
+  <swiper-item>
+    <image src="https://believe-s.github.io/static//uploads/slide_1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://believe-s.github.io/static//uploads/slide_2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://believe-s.github.io/static//uploads/slide_3.jpg"></image>
+  </swiper-item>
+</swiper>
+
+<!-- 活动标题 -->
+<!-- view类似于div，是块级元素 -->
+<view class="title">乐园活动</view>
+<!-- 活动列表 -->
+<view class="item">
+  <!-- navigator相当于网页中的a标签 -->
+  <navigator url="">
+    <image src="/static/uploads/item_1.png"></image>
+  </navigator>
+  <!-- 活动相关 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <!-- 活动安排 -->
+    <view class="extra">
+      <!-- text相当于span -->
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <view class="status">免费</view>
+  </view>
+
+</view>
+<view class="item">
+  <!-- navigator相当于网页中的a标签 -->
+  <navigator url="">
+    <image src="/static/uploads/item_2.png"></image>
+  </navigator>
+  <!-- 活动相关 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <!-- 活动安排 -->
+    <view class="extra">
+      <!-- text相当于span -->
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <view class="status">免费</view>
+  </view>
+
+</view>
+<view class="item">
+  <!-- navigator相当于网页中的a标签 -->
+  <navigator url="">
+    <image src="/static/uploads/item_3.png"></image>
+  </navigator>
+  <!-- 活动相关 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <!-- 活动安排 -->
+    <view class="extra">
+      <!-- text相当于span -->
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <view class="status">免费</view>
+  </view>
+
+</view>
+<view class="item">
+  <!-- navigator相当于网页中的a标签 -->
+  <navigator url="">
+    <image src="/static/uploads/item_4.png"></image>
+  </navigator>
+  <!-- 活动相关 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <!-- 活动安排 -->
+    <view class="extra">
+      <!-- text相当于span -->
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <view class="status">免费</view>
+  </view>
+
+</view>
